@@ -1,5 +1,5 @@
 image: main.o variables.o events.o
-	gcc main.o ./lib/my_lib/events.o ./lib/my_lib/variables.o  -L ./lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -o image.exe
+	gcc main.o ./lib/my_lib/events.o ./lib/my_lib/variables.o  -L ./lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -o image.exe
 main.o: main.c
 	gcc -I ./include main.c -c
 variables.o: ./lib/my_lib/variables.c

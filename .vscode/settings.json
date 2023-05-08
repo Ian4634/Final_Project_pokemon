@@ -1,6 +1,8 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "variables.h": "c"
+        "variables.h": "c",
+        "main.h": "c",
+        "events.h": "c"
     }
 }

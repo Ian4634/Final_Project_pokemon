@@ -7,7 +7,7 @@ static void handlePlayerMovement(SDL_Event events){
 
     switch(events.key.keysym.sym){
         case SDLK_UP:
-            if(player->y - 37 >= 0 && player->y -37  <= 600)  player->y -= 37;
+            if(player->y - 37 >= 0 && player->y - 37  <= 600)  player->y -= 37;
             break;
         case SDLK_DOWN:
             if(player->y + 37 >= 0 && player->y + 37  <= 590)  player->y += 37;
